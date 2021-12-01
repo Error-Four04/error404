@@ -1,15 +1,11 @@
 package Presentacion;
 
 
-//My own imports from my packages
 import LogicaNegocio.MyArrayList;
 import LogicaNegocio.Estudiante;
 import LogicaNegocio.Materia;
 import LogicaNegocio.Materias;
-/**
- *
- * @author i-linux
- */
+
 public class Main {
     
     //Creamos el nuestra ArrayList
