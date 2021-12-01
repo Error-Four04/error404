@@ -1,9 +1,5 @@
 package LogicaNegocio;
 
-/**
- *
- * @author i-linux
- */
 public class Materia {
     private String name;
     private double nota;
