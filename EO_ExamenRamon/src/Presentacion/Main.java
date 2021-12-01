@@ -31,10 +31,13 @@ public class Main {
         
         //Para el estudiante John.
         Materia ciberSeguridad2 = new Materia("CiberSeguridad", 100);
+        e2.addCurse(ciberSeguridad2);
         
         //Para el estudiante Ringo.
         Materia derecho3 = new Materia("Derecho",90);
         Materia civismo3 = new Materia("Civismo", 50);
+        e3.addCurse(derecho3);
+        e3.addCurse(civismo3);
         
         //Agregamos a la pila los estudiantes.
         stackStudents.push(e1);
