@@ -28,7 +28,8 @@ public class Estudiante {
     }
     
     //Metodos extra para operaciones de alumno
-    
+    // LILLIAM este metodo ya no lo use por los nervios, pero lo hice en el main. a este metodo le falto dividir entre el total de materias.
+    // PONTE HACK ;)
     public double promedio() {
         double promedio = 0;
         if(listaMaterias.isEmpty())
