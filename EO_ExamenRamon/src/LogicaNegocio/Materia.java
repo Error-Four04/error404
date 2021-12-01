@@ -28,4 +28,12 @@ public class Materia {
     public double getNota() {
         return nota;
     }
+    
+    public String mensaje() {
+        if(nota >= 60) {
+            return "Aprobado";
+        }else {
+            return "Reprobado";
+        }
+    }
 }
