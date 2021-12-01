@@ -1,9 +1,5 @@
 package LogicaNegocio;
 
-/**
- *
- * @author i-linux
- */
 public class Estudiante {
     
     private String name;
