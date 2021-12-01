@@ -1,9 +1,5 @@
 package LogicaNegocio;
 
-/**
- *
- * @author i-linux
- */
 // Clase lista para las materias
 public class Materias {
     private Node<Materia> head;
