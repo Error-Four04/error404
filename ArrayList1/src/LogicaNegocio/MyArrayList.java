@@ -1,9 +1,5 @@
 package LogicaNegocio;
 
-/**
- *
- * @author i-linux
- */
 public class MyArrayList<E> {
     private Node<E> head;
     private Node<E> tail;
