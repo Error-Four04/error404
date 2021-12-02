@@ -1,9 +1,5 @@
 package LogicaNegocio;
 
-/**
- *
- * @author i-linux
- */
 public class Sencilla extends Habitacion {
     private double precio;
     

@@ -1,9 +1,5 @@
 package LogicaNegocio;
 
-/**
- *
- * @author i-linux
- */
 public class Node<T> {
     private T object;             // contenido de el nodo a crear segun la clase
     private Node<T> nextNode;   // siguiente nodo en la lista de tipo referencia a objeto

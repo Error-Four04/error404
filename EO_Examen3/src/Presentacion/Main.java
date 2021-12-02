@@ -1,10 +1,6 @@
 package Presentacion;
 import LogicaNegocio.*;
 
-/**
- *
- * @author i-linux
- */
 public class Main {
     
     private static ListaGenerica<Reservacion> listaReservacion = new ListaGenerica();
