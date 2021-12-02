@@ -1,13 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package LogicaNegocio;
 
 /**
  *
  * @author i-linux
  */
-public class Habitacion {
+public abstract class Habitacion {
+    public int numero;
     
+    public abstract double getPrecio();
 }

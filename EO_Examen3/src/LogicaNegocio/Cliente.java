@@ -48,6 +48,12 @@ public class Cliente {
     public void setCiudad(String ciudad) {
         this.ciudad = ciudad;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "clave=" + clave + ", nombre=" + nombre + ", direccion=" + direccion + ", ciudad=" + ciudad + '}';
+    }
+    
     
     
 }

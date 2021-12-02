@@ -16,4 +16,10 @@ public class Doble extends Habitacion{
     public double getPrecio() {
         return precio;
     }
+
+    @Override
+    public String toString() {
+        return "Doble{" + "precio=" + precio + '}';
+    }
+    
 }

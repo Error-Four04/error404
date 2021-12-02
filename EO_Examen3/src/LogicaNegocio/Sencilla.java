@@ -1,13 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package LogicaNegocio;
 
 /**
  *
  * @author i-linux
  */
-public class Sencilla {
+public class Sencilla extends Habitacion {
+    private double precio;
+    
+    public Sencilla(int numero, double precio) {
+        this.numero = numero;
+        this.precio = precio;
+    }
+    
+    @Override
+    public double getPrecio() {
+        return precio;
+    }
+
+    @Override
+    public String toString() {
+        return "Sencilla{" + "precio=" + precio + '}';
+    }
+    
     
 }
