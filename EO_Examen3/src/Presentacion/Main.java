@@ -25,9 +25,9 @@ public class Main {
         Reservacion r3 = new Reservacion(c3, d1, "10-Nov-2021", 15);
         
         //Agregamos a la lista las reservaciones en modo cola.
-        listaReservacion.enQueue(r1);
-        listaReservacion.enQueue(r2);
-        listaReservacion.enQueue(r3);
+        listaReservacion.cola(r1);
+        listaReservacion.cola(r2);
+        listaReservacion.cola(r3);
         
         for(int i=0; i<listaReservacion.size(); i++) {
             Reservacion raux = listaReservacion.get(i);
